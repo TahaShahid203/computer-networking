@@ -1,2 +1,5 @@
 Task 1: Simple client server connection using python sockets
 The client sends a request to a server on port 5555. the server responds with a message of "Hello Client!"
+
+Task 2: nmap commands
+Run a bunch of nmap commands and explain them and show their outputs
