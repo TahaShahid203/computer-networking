@@ -1,0 +1,11 @@
+2025/01/21 00:07:10 [emerg] 24484#25060: no "events" section in configuration
+2025/01/21 00:07:23 [emerg] 14592#8000: no "events" section in configuration
+2025/01/21 00:07:29 [emerg] 16640#29144: no "events" section in configuration
+2025/01/21 00:08:38 [notice] 14056#4968: signal process started
+2025/01/21 00:12:57 [notice] 13772#26980: signal process started
+2025/01/21 00:15:08 [notice] 15432#26248: signal process started
+2025/01/21 00:18:22 [notice] 23700#9284: signal process started
+2025/01/22 00:53:45 [emerg] 31280#29476: no "events" section in configuration
+2025/01/22 00:54:48 [notice] 24616#17736: signal process started
+2025/01/29 07:56:53 [emerg] 4888#11304: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2025/01/29 07:56:56 [emerg] 2000#14836: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)

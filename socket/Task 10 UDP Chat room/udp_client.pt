@@ -1,0 +1,13 @@
+import socket
+
+def start_client():
+    client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    server_address = ("127.0.0.1", 65433)
+
+    while True:
+        message = input("Enter message to send to server: ")
+        client_socket.sendto(message.encode(), server_address)  # Send message
+        print(f"Message sent to server: {message}")
+
+if __name__ == "__main__":
+    start_client()

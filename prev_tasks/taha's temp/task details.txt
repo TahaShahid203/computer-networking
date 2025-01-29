@@ -1,0 +1,19 @@
+Task 1: Http proxy server
+make a proxy server in python and run it. when you access a site on a browser now, all activity will be logged on the cmd
+
+Task 2: Local DNS using NGINX
+NGINX config file and hosts file (C:/WIndows/Systems32/drivers/etc/hosts) have been configured to allow two custom addresses to loop back to local host
+
+Task 3: Analyze Custom Packets using Scapy
+we send a ICMP, TCP and ARQ packet and wait for response. the response info is then shown in cmd. all of this is done using python's built in library scapy
+
+Task 4: A load balancer with nginx. the configuration has been set in such a way that the dns task is not interrupted from task 2. there are two backends available now. refreshing the page multiple times will make the nginx balance the load between the two servers
+
+Task 5: Ping command explanation
+The ping command is part of the Linux OS. the code is open source and available on GitHub. a summary of the command is provided in this task
+
+Task 6: Socket programming in python and the OSI model
+socket programming in python provides code that relates with OSI layers. I have provided details and code for that in this task
+
+Task 7: TCP ping
+a command was run using nmap. an alternative was using powershell. it'll send and receive TCP packets and that data will be shown in the wireshark
