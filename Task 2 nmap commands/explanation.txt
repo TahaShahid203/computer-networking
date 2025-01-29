@@ -1,0 +1,13 @@
+nmap -sn 192.168.1.1/24
+-sn (Scan No Ports): Only discovers live hosts without scanning their ports.
+192.168.1.1/24: Scans the entire subnet (from 192.168.1.1 to 192.168.1.254).
+
+nmap -p 1-65535 192.168.1.10
+-p 1-65535: Scans all possible ports on the target.
+192.168.1.10: The target device's IP address.
+
+nmap -sV 192.168.1.10
+-sV: Detects service versions running on open ports.
+
+nmap -sS 192.168.1.10
+-sS: SYN scan (half-open scan) to avoid triggering intrusion detection systems (IDS).
