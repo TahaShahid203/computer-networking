@@ -3,3 +3,16 @@ The client sends a request to a server on port 5555. the server responds with a 
 
 Task 2: nmap commands
 Run a bunch of nmap commands and explain them and show their outputs
+
+Task 3: Local DNS using python
+use the dnslib library to make a local DNS server and make sure to prefer it in the controls panel
+
+Task 4: Network Monitoring
+scan all ipaddresses and ports and filter for the active ones
+
+Task 5: Port Forwarder
+start a flask server on port 8080 and use the port forwarder to show the server's output on port 5555
+
+Task 6: a TCP chat room to do groupchat on cmd. you can also send private messages with "/private" keyword.
+
+Task 7: Transfer files from a server to a client
