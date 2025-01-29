@@ -16,3 +16,45 @@ start a flask server on port 8080 and use the port forwarder to show the server'
 Task 6: a TCP chat room to do groupchat on cmd. you can also send private messages with "/private" keyword.
 
 Task 7: Transfer files from a server to a client
+
+Task 8: Use wireshark to apply HTTP filter and view only HTTP traffic and follow a particular TCP stream
+
+Task 9: Use wireshark to make a graph that shows error packets vs. all packets
+
+Task 10: Make a UDP chat room. unlike TCP, it just sends messages to server without establishing connection
+
+Task 11: explain workings of Traceroute command
+
+Task 12: explain workings of netstat command
+
+Task 13: explain workings of ipconfig command
+
+Task 14: explain workings of nslookup command
+
+Task 15: explain workings of curl command
+
+Task 16: explain workings of telnet command
+
+Task 17: explain workings of SSH command
+
+Task 18: Http proxy server
+make a proxy server in python and run it. when you access a site on a browser now, all activity will be logged on the cmd
+
+Task 19: explain workings of route command
+
+Task 20: Analyze Custom Packets using Scapy
+we send a ICMP, TCP and ARQ packet and wait for response. the response info is then shown in cmd. all of this is done using python's built in library scapy
+
+Task 21: A load balancer with python. It balances the load between three servers in a round-robin fashion
+
+Task 22: Ping command explanation
+The ping command is part of the Linux OS. the code is open source and available on GitHub. a summary of the command is provided in this task
+
+Task 23: Socket programming in python and the OSI model
+socket programming in python provides code that relates with OSI layers. I have provided details and code for that in this task
+
+Task 24: TCP ping
+a command was run using nmap. an alternative was using powershell. it'll send and receive TCP packets and that data will be shown in the wireshark
+
+Task 25: UDP ping 
+a command was run using nmap. an alternative was using powershell. it'll send and receive UDP packets and that data will be shown in the wireshark
